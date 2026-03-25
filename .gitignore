@@ -1,0 +1,34 @@
+# Secrets & tokens
+*.env
+.env
+.env.*
+token.json
+token_*.json
+credentials.json
+*.secret
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MCP config (contains credentials)
+.mcp.json
