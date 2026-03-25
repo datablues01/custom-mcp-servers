@@ -10,7 +10,7 @@ Exposes Looker API endpoints for the developer workflow:
   - Dashboard introspection
   - Project & file introspection
 
-Multi-instance: set LOOKER_INSTANCE_NAME per instance (e.g. "wellhub", "kimkim").
+Multi-instance: set LOOKER_INSTANCE_NAME per instance (e.g. "analytics", "marketing").
 The server registers as "{instance}-dev" so tools are namespaced in the MCP client.
 
 Designed to complement existing Looker MCP toolsets that handle
@@ -224,7 +224,7 @@ async def run_explore_query(
     Run a query against a Looker explore and return JSON results.
 
     Args:
-        model: Model name (e.g. 'wellhub')
+        model: Model name (e.g. 'my_model')
         view: Explore/view name (e.g. 'bic_postal_codes_coverage')
         fields: List of field names (e.g. ['view.dimension', 'view.measure'])
         filters: Dict of filter field -> value (e.g. {'view.country': 'Germany'})

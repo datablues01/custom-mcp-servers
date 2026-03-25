@@ -9,7 +9,7 @@ Exposes Harvest API v2 endpoints for time tracking:
   - Tasks (list)
   - Users (list)
 
-Multi-instance: set HARVEST_INSTANCE_NAME per instance (e.g. "datadriven", "datablues").
+Multi-instance: set HARVEST_INSTANCE_NAME per instance (e.g. "company-a", "company-b").
 
 Env vars:
   HARVEST_ACCESS_TOKEN   - Personal access token

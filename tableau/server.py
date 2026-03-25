@@ -10,7 +10,7 @@ Exposes Tableau Server/Cloud REST API and Metadata GraphQL endpoints:
   - Metadata GraphQL (sheets, fields, calculated fields, upstream tables)
 
 Env vars:
-  TABLEAU_BASE_URL       - e.g. https://tableau.data.prd.us.gympass.cloud
+  TABLEAU_BASE_URL       - e.g. https://tableau.mycompany.com
   TABLEAU_TOKEN_NAME     - PAT name
   TABLEAU_TOKEN_SECRET   - PAT secret
   TABLEAU_SITE_CONTENT_URL - Site content URL (empty string for default site)

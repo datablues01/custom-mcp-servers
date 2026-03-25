@@ -10,7 +10,7 @@ Exposes Jira Cloud REST API v3 endpoints:
   - Users & assignees
 
 Env vars:
-  JIRA_BASE_URL       - e.g. https://kimkim.atlassian.net
+  JIRA_BASE_URL       - e.g. https://yoursite.atlassian.net
   JIRA_USER_EMAIL     - Atlassian account email
   JIRA_TOKEN          - API token (from id.atlassian.com/manage-profile/security/api-tokens)
   JIRA_PROJECT_KEY    - Default project key (e.g. 'LK')

@@ -11,7 +11,7 @@ Exposes GitHub REST API endpoints for repo management:
 
 Env vars:
   GITHUB_TOKEN    - Personal access token
-  GITHUB_REPO     - Default repo URL (e.g. https://github.com/gympass/looker-lookml)
+  GITHUB_REPO     - Default repo URL (e.g. https://github.com/owner/repo-name)
   GITHUB_INSTANCE_NAME - Instance label for MCP (default: "github")
 """
 
