@@ -1,4 +1,4 @@
-<![CDATA[<div align="center">
+<div align="center">
 
 # Custom MCP Servers
 
@@ -362,4 +362,3 @@ datablues_mcp/
 ## License
 
 This project is licensed under the MIT License -- see the [LICENSE](LICENSE) file for details.
-]]>
