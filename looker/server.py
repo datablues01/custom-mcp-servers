@@ -190,6 +190,17 @@ async def validate_lookml(project: str = "") -> dict:
     return await _api("POST", f"projects/{_project(project)}/validate")
 
 
+@mcp.tool()
+async def content_validation() -> dict:
+    """
+    Run content validation across the Looker instance.
+    Checks for broken references in dashboards, Looks, and other content
+    (e.g., references to deleted fields, missing explores, broken filters).
+    This is different from LookML validation — it validates saved content, not LookML code.
+    """
+    return await _api("GET", "content_validation")
+
+
 # ── SQL Runner ──────────────────────────────────────────────────────────────
 @mcp.tool()
 async def run_sql(sql: str, connection: str = "") -> list:
